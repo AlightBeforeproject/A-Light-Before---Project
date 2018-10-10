@@ -10,6 +10,7 @@ using UnityEngine.SceneManagement;
 public class HandleTextFile : MonoBehaviour
 {
     //CharacterGenerator thisCharacter;
+    //test
 
     #region grid prefabs
     [SerializeField]
