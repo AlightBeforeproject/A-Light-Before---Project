@@ -842,6 +842,7 @@ MonoBehaviour:
   blocked: 0
   podeContornar: 0
   needScape: 0
+  coliderEntered: 0
   targetObstacle: {fileID: 0}
   dir: {x: 0, y: 0, z: 0}
 --- !u!23 &860062901
@@ -1451,6 +1452,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.06562707, y: 0.02239554, z: 0.02491859}
   m_Center: {x: -0.0011147466, y: 0.011129666, z: -0.00096756406}
+--- !u!65 &1166113857
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1166113853}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.045841303, y: 0.0021360826, z: 0.032456167}
+  m_Center: {x: -0.00082267536, y: 0.0009999394, z: -0.029795054}
 --- !u!4 &1166113858 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4572863935757120, guid: aa751a79d86c02b49963e735ba82bbc1,
